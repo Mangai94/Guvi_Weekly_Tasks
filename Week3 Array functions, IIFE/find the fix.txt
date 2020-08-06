@@ -1,0 +1,33 @@
+Uncaught TypeError: Cannot read property of "variable" of undefined
+
+Undefined is a property of global object. This error occurs when we have any variable without a value
+
+TypeError : null is not an object
+
+This error will be thrown by safari browser when we access/read any property of object which is null
+
+Typeerror : undefined is not an object (evaluating)
+
+(Unknown) Script error 
+
+The browser throws script error when same origin policy got voilates. Accprding to same origin policy, browser only accepts scripts from same server on 2 different web pages
+
+TypeError : Undefined is not a function
+
+Whatever we are trying to execute is not a function. Instead, its undefined
+
+Uncaught rangeerror maximum call stack size
+
+This error occurs when a function is being called repeatedly without the base condition being met. This usually occurs in case of recursive function.
+
+TypeError : Cannot read property length of undefined
+
+We are trying to access length property of undefined object.
+
+Uncaught typeerror : Cannot set property of undefined.
+
+This error happens when we try to assign a property to undefined object.
+
+10. ReferenceError: event is not defined
+
+This error will be thrown when we don't pass event object when handling events.
